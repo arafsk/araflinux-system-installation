@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+echo '
+[araflinux_repo]
+SigLevel = Never
+Server = https://arafsk.github.io/$repo/$arch
+' | sudo tee --append /etc/pacman.conf
+sudo pacman -Syyu
