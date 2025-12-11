@@ -18,7 +18,7 @@ is_package_installed() {
 
 
 echo "######################################################"
-echo "Begin araflinux-set-bootloader"
+echo "Begin arcolinux-set-bootloader"
 echo "######################################################"
 
 echo "installing systemd-boot packages"
@@ -35,6 +35,6 @@ fi
 
 echo
 echo "#################################"
-echo "End araflinux-set-bootloader"
+echo "End arcolinux-set-bootloader"
 echo "#################################"
 echo

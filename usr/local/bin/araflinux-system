@@ -2,7 +2,7 @@
 
 echo
 echo "#################################"
-echo "Start araflinux-system"
+echo "Start arcolinux-system"
 echo "#################################"
 echo
 
@@ -44,7 +44,7 @@ rm -fv /etc/sudoers.d/g_wheel
 rm -rfv /usr/share/backgrounds/xfce
 rm -fv /etc/polkit-1/rules.d/49-nopasswd_global.rules
 rm -v /root/{.automated_script.sh,.zlogin}
-mv -v /etc/araflinux-release /etc/lsb-release
+mv -v /etc/arcolinux-release /etc/lsb-release
 
 echo "#################################"
 echo "Permission of root set to 700"
@@ -53,6 +53,6 @@ chmod -v 700 /root
 
 echo
 echo "#################################"
-echo "End araflinux-system"
+echo "End arcolinux-system"
 echo "#################################"
 echo

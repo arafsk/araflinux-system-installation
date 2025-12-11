@@ -32,7 +32,7 @@ selection=$(get_driver)
 
 echo
 echo "#################################"
-echo "Start araflinux-remove-nvidia"
+echo "Start arcolinux-remove-nvidia"
 echo "#################################"
 echo
 echo "#################################"
@@ -52,6 +52,6 @@ fi
 
 echo
 echo "#################################"
-echo "End araflinux-remove-nvidia"
+echo "End arcolinux-remove-nvidia"
 echo "#################################"
 echo

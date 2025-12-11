@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "#################################"
-echo "Start araflinux-fixes"
+echo "Start arcolinux-fixes"
 echo "#################################"
 
 desktop=$(ls /usr/share/xsessions)
@@ -43,5 +43,5 @@ if [ -f /usr/bin/ukui-session ]; then
 fi
 
 echo "#################################"
-echo "End araflinux-fixes"
+echo "End arcolinux-fixes"
 echo "#################################"

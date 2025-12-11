@@ -3,12 +3,12 @@
 ###############################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
-# Website	:	https://www.araflinux.info
-# Website	:	https://www.araflinux.com
-# Website	:	https://www.araflinuxd.com
-# Website	:	https://www.araflinuxb.com
-# Website	:	https://www.araflinuxiso.com
-# Website	:	https://www.araflinuxforum.com
+# Website	:	https://www.arcolinux.info
+# Website	:	https://www.arcolinux.com
+# Website	:	https://www.arcolinuxd.com
+# Website	:	https://www.arcolinuxb.com
+# Website	:	https://www.arcolinuxiso.com
+# Website	:	https://www.arcolinuxforum.com
 ###############################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -16,7 +16,7 @@
 ###############################################################################
 
 echo "###########################################"
-echo "Start araflinux virtual machine check"
+echo "Start ArcoLinux virtual machine check"
 echo "###########################################"
 
 result=$(systemd-detect-virt)
@@ -175,8 +175,8 @@ if [ $result = "none" ];
 			echo "Removed qemu-guest-agent"
 		fi
 
-		if [ -f /usr/local/bin/araflinux-virtual-machine-check ]; then
-	   		rm /usr/local/bin/araflinux-virtual-machine-check
+		if [ -f /usr/local/bin/arcolinux-virtual-machine-check ]; then
+	   		rm /usr/local/bin/arcolinux-virtual-machine-check
 			echo "Removed avm-check script"
 		fi
 
@@ -187,5 +187,5 @@ if [ $result = "none" ];
 fi
 
 echo "########################################"
-echo "End araflinux virtual machine check"
+echo "End ArcoLinux virtual machine check"
 echo "########################################"

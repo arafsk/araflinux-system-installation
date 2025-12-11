@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "#################################"
-echo "Start araflinux-before"
+echo "Start arcolinux-before"
 echo "#################################"
 echo
 echo "#################################"
@@ -16,9 +16,9 @@ echo
 echo "#################################"
 echo "Changing into our own linux.preset"
 echo "#################################"
-mv -v /etc/mkinitcpio.d/araflinux /etc/mkinitcpio.d/linux.preset
+mv -v /etc/mkinitcpio.d/arcolinux /etc/mkinitcpio.d/linux.preset
 echo
 echo "#################################"
-echo "End araflinux-before"
+echo "End arcolinux-before"
 echo "#################################"
 echo

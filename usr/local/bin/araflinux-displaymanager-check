@@ -3,12 +3,12 @@
 ###############################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
-# Website	:	https://www.araflinux.info
-# Website	:	https://www.araflinux.com
-# Website	:	https://www.araflinuxd.com
-# Website	:	https://www.araflinuxb.com
-# Website	:	https://www.araflinuxiso.com
-# Website	:	https://www.araflinuxforum.com
+# Website	:	https://www.arcolinux.info
+# Website	:	https://www.arcolinux.com
+# Website	:	https://www.arcolinuxd.com
+# Website	:	https://www.arcolinuxb.com
+# Website	:	https://www.arcolinuxiso.com
+# Website	:	https://www.arcolinuxforum.com
 ###############################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
@@ -17,7 +17,7 @@
 
 echo
 echo "#################################"
-echo "Start araflinux-displaymanager-check"
+echo "Start arcolinux-displaymanager-check"
 echo "#################################"
 echo
 
@@ -48,6 +48,6 @@ fi
 
 echo
 echo "#################################"
-echo "End araflinux-displaymanager-check"
+echo "End arcolinux-displaymanager-check"
 echo "#################################"
 echo
