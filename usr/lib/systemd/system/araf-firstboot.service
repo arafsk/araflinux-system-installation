@@ -1,0 +1,11 @@
+[Unit]
+Description=Araf_OS First Boot Setup
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/araf-firstboot.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
