@@ -1,5 +1,0 @@
-#!/bin/bash
-
-mv -v /etc/mkinitcpio.d/arafos /etc/mkinitcpio.d/linux.preset
-
-rm -f /usr/local/bin/arafos-preset
